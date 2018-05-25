@@ -352,6 +352,11 @@ h5 {
     margin-bottom: 20px;
 
   }
+
+  .hobbieicons li {
+    width: 17%;
+    margin: 3% 2% 3% 2%;
+  }
   .header {
     position: relative;
   }
