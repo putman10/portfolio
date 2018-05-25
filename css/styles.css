@@ -1,5 +1,4 @@
 body {
-   text-transform: uppercase;
    font-family: 'Arimo', sans-serif;
 }
 
@@ -112,12 +111,21 @@ img {
 
 .banner h1 {
   color:white;
+  font-weight: 700;
 }
 
 .projects {
   background-color: #005091;
 }
 
+.section-title h2 {
+  font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  color: white;
+}
 @media (min-width: 768px) {
   #middle {
     display: table-cell;
