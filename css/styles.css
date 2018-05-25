@@ -180,6 +180,7 @@ img {
   background-image: url(../img/pink-dust.png);
   color: white;
   text-align: center;
+  padding: 3rem;
 }
 
 .skills ul {
@@ -206,6 +207,9 @@ img {
   width: 20%;
   float: left;
   margin-right: 20px;
+  -webkit-box-shadow: -9px 10px 18px -8px rgba(0,0,0,0.62);
+  -moz-box-shadow: -9px 10px 18px -8px rgba(0,0,0,0.62);
+  box-shadow: -9px 10px 18px -8px rgba(0,0,0,0.62);
 }
 .school {
   width: 40px;
@@ -220,6 +224,7 @@ img {
 
 .about h4{
   margin-top: 3rem;
+  margin-bottom: 15px;
 }
 .about h4:first-of-type{
   margin-top: 0rem;
