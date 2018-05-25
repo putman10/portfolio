@@ -16,10 +16,6 @@
   display: inline-block;
 }
 
-#headbox {
-  display: table;
-}
-
 .header .col-md-1,
 .header .col-md-2,
 .header .col-md-3,
@@ -50,8 +46,15 @@
   padding: 10px 0px;
 }
 
+.social ul {
+padding: 0px;
+}
 .social li:first-of-type {
-  margin-right: 10px;
+  margin-right: 2%;
+}
+
+.social li {
+  max-width: 47%;
 }
 
 .social img{
@@ -71,6 +74,9 @@
   min-height: 400px;
 }
 
+img {
+  max-width: 100%;
+}
 .header .container {
 
 }
@@ -79,6 +85,9 @@
   #middle {
     display: table-cell;
     vertical-align: middle;
+  }
+  #headbox {
+    display: table;
   }
 }
 
