@@ -141,6 +141,30 @@ img {
   border: 2px solid black;
 }
 
+.project-text h3 {
+  margin-top: 10px;
+}
+
+.project-text .btn {
+  background: #008a8b;
+  color: white;
+}
+.project-text .btn:hover {
+  background: #005091;
+  color: white;
+}
+
+.project-text h3 a {
+  color: #005091;
+  font-weight: 700;
+}
+
+.project-text h3 a:hover {
+  color: #008a8b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   #middle {
     display: table-cell;
