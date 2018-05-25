@@ -126,6 +126,21 @@ img {
   text-align: center;
   color: white;
 }
+
+.projects .col-md-4 {
+  padding: 10px;
+}
+
+.projects .row {
+  margin-bottom: 10px;
+}
+
+.project-text {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+}
+
 @media (min-width: 768px) {
   #middle {
     display: table-cell;
