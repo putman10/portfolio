@@ -70,7 +70,7 @@ padding: 0px;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   min-height: 400px;
 }
 
@@ -79,7 +79,8 @@ img {
 }
 
 .btn {
-  border:2px solid #005091;
+  border: 2px solid white;
+  background: rgba(0,0,0,0.2);
 }
 
 .btn:hover {
@@ -88,11 +89,25 @@ img {
 }
 
 .banner a {
-  color: #005091;
+  color: white;
 }
 
 .banner a:hover {
   color: white;
+}
+
+.banner .container {
+  display: table-cell;
+  vertical-align: middle;
+  background: rgba(0,0,0,0.2);
+}
+.banner {
+  display: table;
+  width: 100%;
+}
+
+.banner h1 {
+  color:white;
 }
 
 @media (min-width: 768px) {
@@ -102,14 +117,6 @@ img {
   }
   #headbox {
     display: table;
-  }
-  .banner .container {
-    display: table-cell;
-    vertical-align: middle;
-  }
-  .banner {
-    display: table;
-    width: 100%;
   }
 }
 
@@ -130,5 +137,8 @@ img {
     width: 100%;
     margin-bottom: 20px;
 
+  }
+  .header {
+    position: relative;
   }
 }
