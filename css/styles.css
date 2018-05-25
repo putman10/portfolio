@@ -89,6 +89,14 @@ img {
   #headbox {
     display: table;
   }
+  .banner .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .banner {
+    display: table;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
