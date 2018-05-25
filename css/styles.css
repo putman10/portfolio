@@ -203,6 +203,15 @@ img {
   border-radius: 5%;
 }
 
+.hobbieicons li {
+  width: 8%;
+  margin: 3% 2% 3% 2%;
+}
+
+.moremargin {
+  margin-top: 10px;
+}
+
 .head {
   width: 20%;
   float: left;
