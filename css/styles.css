@@ -228,15 +228,31 @@ img {
   text-align: center;
 }
 
-.contact img{
-    width: 150px;
-    margin-bottom: 20px;
+.contact a {
+  font-weight: 700;
+  color:black;
 }
+
+.contact a:hover {
+  color: #0079a1;
+  text-decoration: none;
+}
+
+.contact img{
+  width: 150px;
+  margin-bottom: 20px;
+  transition: all .2s ease-in-out;
+}
+
+.contact img:hover {
+  transform: scale(1.1);
+}
+
 .contact img:first-of-type{
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .contact img:last-of-type{
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer {
