@@ -1,5 +1,5 @@
 body {
-   font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 .header {
@@ -303,13 +303,13 @@ img {
 }
 
 .title {
-    float: right;
-    font-weight: 700;
-    color: #0079a1;
+  float: right;
+  font-weight: 700;
+  color: #0079a1;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 h1,
@@ -322,10 +322,6 @@ h5 {
 
 .turqoise {
   color:#00a78d;
-}
-
-.greyback {
-
 }
 
 @media (min-width: 768px) {
