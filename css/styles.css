@@ -224,6 +224,21 @@ img {
   border-bottom: 0px dashed grey;
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.contact img:first-of-type{
+    margin-right: 10px;
+}
+.contact img:last-of-type{
+    margin-left: 10px;
+}
+
 .footer {
   background-color: black;
   color:white;
