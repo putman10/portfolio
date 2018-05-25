@@ -177,10 +177,11 @@ img {
 .skills {
   background-color:red;
   background-image: url(../img/pink-dust.png);
-  min-height: 400px;
 }
 
-.about {
+.about,
+.skills,
+.contact {
   margin: 3rem 0;
 }
 
@@ -194,6 +195,10 @@ h3,
 h4,
 h5 {
   font-weight: 700;
+}
+
+.turqoise {
+  color:#00a78d;
 }
 
 @media (min-width: 768px) {
