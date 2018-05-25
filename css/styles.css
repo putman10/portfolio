@@ -20,11 +20,6 @@
   display: table;
 }
 
-#middle {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 .header .col-md-1,
 .header .col-md-2,
 .header .col-md-3,
@@ -77,5 +72,32 @@
 }
 
 .header .container {
-  margin-top: 100px;
+
+}
+
+@media (min-width: 768px) {
+  #middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header .col-md-1,
+  .header .col-md-2,
+  .header .col-md-3,
+  .header .col-md-4,
+  .header .col-md-5,
+  .header .col-md-6,
+  .header .col-md-7,
+  .header .col-md-8,
+  .header .col-md-9,
+  .header .col-md-10,
+  .header .col-md-11,
+  .header .col-md-12 {
+    width: 100%;
+    margin-bottom: 20px;
+
+  }
 }
