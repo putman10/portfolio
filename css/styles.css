@@ -5,6 +5,10 @@
   padding: 10px 0 10px;
   font-family: 'Arimo', sans-serif;
   text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background: rgba(255,255,255,0.75);
 }
 
 .header li {
@@ -65,4 +69,13 @@
 
 .banner {
   background-image: url(../img/banner.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 400px;
+}
+
+.header .container {
+  margin-top: 100px;
 }
