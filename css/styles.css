@@ -62,3 +62,7 @@
 .social img:hover {
   transform: scale(1.1);
 }
+
+.banner {
+  background-image: url(../img/banner.jpg);
+}
