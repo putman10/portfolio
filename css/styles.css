@@ -9,6 +9,7 @@ body {
   padding: 10px 0 10px;
   text-align: center;
   top: 0;
+  z-index: 100;
   position: fixed;
   width: 100%;
   background: rgba(255,255,255,0.75);
@@ -163,6 +164,12 @@ img {
   color: #008a8b;
   font-weight: 700;
   text-decoration: none;
+}
+
+.skills {
+  background-color:red;
+  background-image: url(../img/pink-dust.png);
+  min-height: 400px;
 }
 
 @media (min-width: 768px) {
