@@ -10,8 +10,8 @@ _{This is a website to show off my css, and HTML skills as well as house all of 
 
 ## Setup/Installation Requirements
 
-* _[Here](https://github.com/putman10/portfolio.git) is the link to Ryan's repository.]_
-* _[Here](http://putman10.github.io/portfolio/) is the link to Ryan's live portfolio site.]_
+* _[Here](https://github.com/putman10/portfolio.git) is the link to Ryan's repository._
+* _[Here](http://putman10.github.io/portfolio/) is the link to Ryan's live portfolio site._
 
 ## Support and contact details
 
