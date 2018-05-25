@@ -178,6 +178,18 @@ img {
 .skills {
   background-color:red;
   background-image: url(../img/pink-dust.png);
+  color: white;
+  text-align: center;
+}
+
+.skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skills li {
+  list-style: none;
+  display: inline-block;
 }
 
 .about,
@@ -294,7 +306,7 @@ h5 {
 }
 
 .greyback {
-  
+
 }
 
 @media (min-width: 768px) {
