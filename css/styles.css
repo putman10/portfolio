@@ -125,7 +125,14 @@ img {
 
 .section-title {
   text-align: center;
-  color: white;
+  margin: 3rem 0;
+}
+
+.white {
+ color: white;
+}
+.black {
+  color:black;
 }
 
 .projects .col-md-4 {
@@ -170,6 +177,10 @@ img {
   background-color:red;
   background-image: url(../img/pink-dust.png);
   min-height: 400px;
+}
+
+.about {
+  margin: 3rem 0;
 }
 
 @media (min-width: 768px) {
